@@ -5,12 +5,24 @@ class Participant:
         self.points = 0
         self.choice = ""
     def choose(self):
-        self.choice=input(f"{self.name} choose paper, rock or scissor?").lower()
-        print(f"{self.name} selects {self.choice}")
+        while True:
+            try:
+                self.choice=input(f"{self.name} choose paper, rock or scissor? ").strip().lower()
+                if self.choice in ["rock", "paper", "scissor", "r", "p", "s"]:
+                    print(f"{self.name} selects {self.choice}")
+                    break
+                else:
+                    print("Invalid input. Please type 'rock', 'paper' or 'scissor'.")
+            except ValueError as e:
+                print(e)
+                
 
     # Convert choice to numerical value
     def toNumericalChoice(self):
         switcher = {
+            "r": 0,
+            "p": 1,     
+            "s": 2,
             "rock": 0,
             "paper": 1,
             "scissor": 2
