@@ -48,7 +48,7 @@ These might require `if/else`, random number generator, and loops.
 ## Level 2
 Here are projects that users can find or add a database entry.
 
-These might require lists, objects, and file inputs/outputs
+These might require lists, objects, and file inputs/outputs.
 
 21 🏦 Bank Account
 
