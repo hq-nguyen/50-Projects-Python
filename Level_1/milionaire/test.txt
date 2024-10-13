@@ -1,0 +1,92 @@
+=== delete 4 first lines to using test.txt file
+references: https://github.com/ricardoafo/who_wants_to_be_a_millonaire/blob/master/questions.txt
+===
+
+What was the name of the Spanish waiter in the TV sitcom "Fawlty Towers"?
+Manuel,Pedro,Alfonso,Javier
+Manuel
+In the TV sitcom "Fawlty Towers" the name of the Spanish waiter is Manuel
+What sort of animal is Walt Disney's Dumbo?
+Deer,Rabbit,Elephant,Donkey
+Elephant
+Walt Disney's Dumbo is an elephant
+Which battles took place between the Royal Houses of York and Lancaster?
+Thirty Years War,Hundred Years War,Wars of the Roses,English Civil War
+Wars of the Roses
+The correct answer is Wars of the Roses. The Wars of the Roses were a series of civil wars fought between the rival royal houses of York and Lancaster in England during the 15th century. The conflict was primarily a power struggle for the English throne, with both houses claiming a legitimate right to rule. The wars ultimately ended with the victory of the Lancastrians and the establishment of the Tudor dynasty under Henry VII
+Which former Beatle narrated the TV adventures of Thomas the Tank Engine?
+John Lennon,Paul McCartney,George Harrison,Ringo Starr
+Ringo Starr
+Ringo Starr narrated the TV adventures of Thomas the Tank Engine. Ringo Starr, a former member of The Beatles, lent his voice to the popular children's show, bringing life to the beloved characters and captivating young audiences with his storytelling. His distinctive voice and charm made him the perfect choice for narrating the adventures of Thomas and his friends
+Queen Anne was the daughter of which English Monarch?
+James II,Henry VIII,Victoria,William I
+James II
+Queen Anne was the daughter of James II
+Who composed "Rhapsody in Blue"?
+Irving Berlin,George Gershwin,Aaron Copland,Cole Porter
+George Gershwin
+George Gershwin composed "Rhapsody in Blue." Gershwin was an American composer and pianist known for his fusion of classical music and jazz. "Rhapsody in Blue" is one of his most famous compositions, blending elements of jazz and classical music to create a unique and innovative sound. Gershwin's ability to seamlessly combine these genres made him a significant figure in American music and contributed to the development of the "American sound" in the early 20th century
+What is the Celsius equivalent of 77 degrees Fahrenheit?
+15,20,25,30
+25
+To convert Fahrenheit to Celsius, we can use the formula: Celsius = (Fahrenheit - 32) * 5/9. Plugging in the given Fahrenheit value of 77 into the formula, we get (77 - 32) * 5/9 = 45 * 5/9 = 225/9 = 25. Therefore, the Celsius equivalent of 77 degrees Fahrenheit is 25
+What is the capital city of Australia?
+Auckland,Sydney,Melbourne,Canberra
+Canberra
+Canberra is the capital of Australia, located in the Australian Capital Territory
+Who wrote the play "Romeo and Juliet"?
+Charles Dickens,William Shakespeare,Jane Austen,Mark Twain
+William Shakespeare
+"Romeo and Juliet" was written by William Shakespeare, one of the most famous playwrights in history
+Which planet is known as the "Red Planet"?
+Venus,Mars,Jupiter,Saturn
+Mars
+Mars is known as the "Red Planet" due to its distinctive color
+In what year did the United States declare its independence?
+1756,1776,1801,1820
+1776
+The United States declared its independence in the year 1776
+Who painted the famous artwork "Starry Night"?
+Vincent van Gogh,Pablo Picasso,Leonardo da Vinci,Claude Monet
+Vincent van Gogh
+"Starry Night" is a masterpiece painted by Vincent van Gogh
+What is the currency of Japan?
+Yen,Dollar,Euro,Pound
+Yen
+The currency of Japan is the yen
+Which ocean is the largest on Earth?
+Atlantic,Indian,Arctic,Pacific
+Pacific
+The Pacific Ocean is the largest and deepest ocean on Earth
+Who is known as the "Father of Modern Physics"?
+Isaac Newton,Galileo Galilei,Albert Einstein,Nikola Tesla
+Albert Einstein
+Albert Einstein is often referred to as the "Father of Modern Physics"
+What is the official language of Brazil?
+Spanish,Portuguese,French,Italian
+Portuguese
+The official language of Brazil is Portuguese
+In what year did the Berlin Wall fall?
+1985,1989,1991,1995
+1989
+The Berlin Wall fell in the year 1989, marking the end of the Cold War era
+Who wrote the novel "1984"?
+George Orwell,Aldous Huxley,Ray Bradbury,Arthur C. Clarke
+George Orwell
+"1984" was written by George Orwell, depicting a dystopian future
+What is the largest mammal in the world?
+Elephant,Blue Whale,Giraffe,Lion
+Blue Whale
+The Blue Whale is the largest mammal on Earth
+Which river is the longest in the world?
+Nile,Amazon,Mississippi,Ganges
+Amazon
+The Amazon River is the longest river in the world, flowing through South America
+Who is known as the "Queen of Pop"?
+Beyoncé,Madonna,Taylor Swift,Adele
+Madonna
+Madonna is often referred to as the "Queen of Pop" for her influence on the music industry
+What is the chemical symbol for gold?
+G,Ag,Au,Fe
+Au
+The chemical symbol for gold is Au
