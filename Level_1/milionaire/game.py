@@ -1,3 +1,5 @@
+from utils import format_question, get_valid_input, display_correct_answer_feedback, display_incorrect_answer_feedback, end_game_message
+
 class Game:
     def __init__(self, player, question_manager):
         self.player = player
@@ -12,29 +14,23 @@ class Game:
 
             if not self.prompt_next():
                 break
-            
+
             self.round += 1
 
-        self.end_game()
+        end_game_message(self.player)
 
     def ask_question(self, question):
-        print(f"Round {self.round}: {question.question}")
-        for idx, option in enumerate(question.options):
-            print(f"{idx + 1}. {option}")
-        answer = input("Your choice (1-4): ").strip()
+        format_question(question.question, question.options)
+        answer = get_valid_input("Your choice (1-4): ", ['1', '2', '3', '4'])
 
         if question.options[int(answer) - 1] == question.correct_answer:
-            print("Correct!")
+            display_correct_answer_feedback()
             self.player.increment_score()
         else:
-            print("Incorrect!")
-            print(f"Explanation: {question.explanation}")
-            self.end_game()
+            display_incorrect_answer_feedback(question.explanation)
+            end_game_message(self.player)
+            exit()
 
     def prompt_next(self):
-        choice = input("Do you want to continue? (y/n): ").lower()
+        choice = get_valid_input("Do you want to continue? (y/n): ", ['y', 'n'])
         return choice == 'y'
-
-    def end_game(self):
-        print(f"Game Over! Your final score: {self.player.score}")
-        exit()
