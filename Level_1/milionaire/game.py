@@ -20,15 +20,22 @@ class Game:
         for i, option in enumerate(question.options):
             print(f"{i+1}. {option}")
 
-        try:
-            answer = int(input("Enter the number of your answer: ")) - 1
-            if question.options[answer] == question.correct_answer:
-                self.correct_answer()
-            else:
-                self.incorrect_answer()
-        except (ValueError, IndexError):
-            print("Invalid input! Please select a valid option.")
-            self.incorrect_answer()
+        # make sure the player enters a valid answer
+        while True:
+            try:
+                answer = int(input("Enter the number of your answer: ")) - 1
+                if answer in range(4):
+                    if question.options[answer] == question.correct_answer:
+                        self.correct_answer()
+                        break
+                    else:
+                        self.incorrect_answer()
+                        break
+                else:
+                    print("Please enter a valid option (1-4).")
+            except (ValueError, IndexError):
+                print("Invalid input! Please select a valid option.")
+                continue
 
     def correct_answer(self):
         """Handles the player answering correctly."""
