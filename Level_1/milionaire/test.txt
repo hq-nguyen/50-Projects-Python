@@ -1,4 +1,4 @@
-=== delete 4 first lines to using test.txt file
+=== delete first 4 lines to use test.txt file
 references: https://github.com/ricardoafo/who_wants_to_be_a_millonaire/blob/master/questions.txt
 ===
 
