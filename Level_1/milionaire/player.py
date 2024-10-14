@@ -1,11 +1,10 @@
 class Player:
     def __init__(self, name):
         self.name = name
-        self.score = 0
-        self.current_question = None
+        self.money = 0
 
-    def increment_score(self):
-        self.score += 1
+    def add_money(self, amount):
+        self.money += amount
 
-    def reset_score(self):
-        self.score = 0
+    def get_money(self):
+        return self.money

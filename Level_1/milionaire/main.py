@@ -8,7 +8,7 @@ def main():
     question_manager = QuestionManager('./Level_1/milionaire/questions.txt')
     
     game = Game(player, question_manager)
-    game.start()
+    game.play()
 
 if __name__ == "__main__":
     main()
