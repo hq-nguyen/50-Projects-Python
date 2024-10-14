@@ -13,6 +13,7 @@ class Game:
         self.milestones = [1000, 32000]
         self.current_question_index = 0
         self.game_over = False
+        self.round = 1
 
     def ask_question(self, question):
         """Asks the player a question and handles their response."""
@@ -29,6 +30,7 @@ class Game:
                         self.correct_answer()
                         break
                     else:
+                        print(f"Explanation: {question.explanation}")
                         self.incorrect_answer()
                         break
                 else:
@@ -61,10 +63,32 @@ class Game:
             print(f"Sorry, that's incorrect. You leave with ${last_milestone}.")
         self.game_over = True
 
+    # Check if the player wants to continue
+    def prompt_next(self):
+        # make sure the player enters a valid choice
+        while True:
+            choice = input("Do you want to continue? (y/n): ").lower()
+            if choice in ['y', 'n', 'yes', 'no']:
+                break
+            else:
+                print("Please enter a valid choice (y/n).")
+        return choice in ['y', 'yes']
+
     def play(self):
         """Main game loop."""
         print(f"Welcome {self.player.name} to 'Who Wants to be a Millionaire!'")
-
-        while not self.game_over:
+       
+        # Loop only if game is not over and player has not answered 15 questions
+        while not self.game_over and self.round <= 15:
             question = self.question_manager.get_random_question()
             self.ask_question(question)
+       
+            # Only prompt to continue if the game is not over
+            if not self.game_over:  # Only ask if they want to continue if the player hasn't lost
+                if not self.prompt_next():
+                    print(f"Thank you for playing! You leave with ${self.player.get_money()}.")
+                    self.game_over = True
+                    break
+                   
+            self.round += 1
+
