@@ -18,3 +18,7 @@ QUESTIONS = {
         "When the file only has one function",
     ]
 }
+
+def prepare_questions(questions, num_questions):
+    num_questions = min(num_questions, len(questions))
+    return random.sample(list(questions.items()), k=num_questions)
