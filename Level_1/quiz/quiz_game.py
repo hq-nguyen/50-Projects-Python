@@ -33,3 +33,15 @@ def get_answer(question, alternatives):
         print(f"Please answer one of {', '.join(labeled_alternatives)}")
 
     return labeled_alternatives[answer_label]
+
+def ask_question(question, alternatives):
+    correct_answer = alternatives[0]
+    ordered_alternatives = random.sample(alternatives, k=len(alternatives))
+
+    answer = get_answer(question, ordered_alternatives)
+    if answer == correct_answer:
+        print("⭐ Correct! ⭐")
+        return 1
+    else:
+        print(f"The answer is {correct_answer!r}, not {answer!r}")
+        return 0
