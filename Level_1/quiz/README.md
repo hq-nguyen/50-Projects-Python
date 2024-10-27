@@ -1,3 +1,4 @@
+#### Building the quiz application iteratively by going through the following steps:
 1. Create a basic application that can ask multiple-choice questions.
 2. Make the app more user-friendly by improving how it looks and how it handles user errors.
 3. Refactor the code to use functions.
