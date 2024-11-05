@@ -113,4 +113,5 @@ Beware, only the brave should venture forth:
 
 49 🎨 Paint
 
+50 .....
 > Reference [Codédex](https://www.codedex.io/projects/50-terminal-project-ideas-using-python)
