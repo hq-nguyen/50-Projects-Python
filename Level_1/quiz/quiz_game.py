@@ -43,7 +43,8 @@ def ask_question(question, alternatives):
 
     answer = get_answer(question, ordered_alternatives)
     if answer == correct_answer:
-        print("⭐ Great! ⭐")
+        # print("⭐", random(correct_answer) ," ⭐")
+        print(random.choice(correct_answers))
         return 1
     else:
         print(f"The answer is {correct_answer!r}, not {answer!r}")
