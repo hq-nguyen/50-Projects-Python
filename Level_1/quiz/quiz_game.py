@@ -34,13 +34,16 @@ def get_answer(question, alternatives):
 
     return labeled_alternatives[answer_label]
 
+# making interesting when user answer the right question
+correct_answers = ['Great!', 'Awesome!', 'Nice!', 'Good job!']
+
 def ask_question(question, alternatives):
     correct_answer = alternatives[0]
     ordered_alternatives = random.sample(alternatives, k=len(alternatives))
 
     answer = get_answer(question, ordered_alternatives)
     if answer == correct_answer:
-        print("⭐ Correct! ⭐")
+        print("⭐ Great! ⭐")
         return 1
     else:
         print(f"The answer is {correct_answer!r}, not {answer!r}")
